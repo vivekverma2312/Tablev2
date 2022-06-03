@@ -2,7 +2,7 @@
   "pluginType": "DB",
   "pluginId": "postgres-plugin",
   "unpublishedAction": {
-    "name": "Query2",
+    "name": "Query1",
     "datasource": {
       "name": "users",
       "pluginId": "postgres-plugin",
@@ -13,38 +13,30 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Page4",
+    "pageId": "old table",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": "UPDATE users\n  SET country = {{Table1.triggeredRow.country}},\n\t    email = {{Table1.triggeredRow.email}}\n  WHERE id = {{ Table1.triggeredRow.id }};\n",
+      "body": "SELECT * FROM users ORDER BY id LIMIT 50;",
       "pluginSpecifiedTemplates": [
         {
           "value": true
         }
       ]
     },
-    "executeOnLoad": false,
-    "dynamicBindingPathList": [
-      {
-        "key": "body"
-      }
-    ],
+    "executeOnLoad": true,
+    "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
     "messages": [],
-    "jsonPathKeys": [
-      "Table1.triggeredRow.country",
-      "Table1.triggeredRow.email",
-      "Table1.triggeredRow.id"
-    ],
+    "jsonPathKeys": [],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": []
   },
-  "id": "Page4_Query2",
+  "id": "old table_Query1",
   "deleted": false,
-  "gitSyncId": "6283692908966b79ab0abcbb_62985561c43c3d0bd6571cbe"
+  "gitSyncId": "6283692908966b79ab0abcbb_6299dcf442f11332a6134e56"
 }
