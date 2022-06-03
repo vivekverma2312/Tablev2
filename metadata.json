@@ -6,14 +6,14 @@
     "Page2",
     "demo",
     "Page3",
-    "Page4"
+    "old table"
   ],
   "publishedPageOrder": [
     "Page1",
     "Page2",
     "demo",
     "Page3",
-    "Page4"
+    "old table"
   ],
   "publishedDefaultPageName": "Page1",
   "unpublishedDefaultPageName": "Page1",
@@ -54,14 +54,6 @@
       "unpublishedUserSetOnLoad": false,
       "publishedUserSetOnLoad": false
     },
-    "Page4_Query1": {
-      "unpublishedUserSetOnLoad": false,
-      "publishedUserSetOnLoad": false
-    },
-    "Page4_Query2": {
-      "unpublishedUserSetOnLoad": false,
-      "publishedUserSetOnLoad": false
-    },
     "demo_JSObject1.myFun1": {
       "unpublishedUserSetOnLoad": false,
       "publishedUserSetOnLoad": false
@@ -75,6 +67,10 @@
       "publishedUserSetOnLoad": false
     },
     "demo_update_data": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "old table_Query1": {
       "unpublishedUserSetOnLoad": false,
       "publishedUserSetOnLoad": false
     }
